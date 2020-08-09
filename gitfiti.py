@@ -289,6 +289,7 @@ def calculate_multiplier(max_commits):
 def get_start_date():
     """returns a datetime object for the first sunday after one year ago today
     at 12:00 noon"""
+    """
     today = datetime.today()
     date = datetime(today.year - 1, today.month, today.day, 12)
     weekday = datetime.weekday(date)
@@ -296,7 +297,7 @@ def get_start_date():
     while weekday < 6:
         date = date + timedelta(1)
         weekday = datetime.weekday(date)
-
+    """
     # Dec 30th 2018
     hard_coded_date = datetime.datetime(2018, 12, 30, 0, 5, 00, 0)
 
