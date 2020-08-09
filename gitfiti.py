@@ -309,8 +309,8 @@ def generate_next_dates(start_date, offset=0):
     """generator that returns the next date, requires a datetime object as
     input. The offset is in weeks"""
     start = offset * 7
-    for i in itertools.count(start):
-        yield start_date + timedelta(i)
+    """for i in itertools.count(start):
+        yield start_date + timedelta(i)"""
 
 
 def generate_values_in_date_order(image, multiplier=1):
