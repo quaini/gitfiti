@@ -268,7 +268,10 @@ def parse_contributions_calendar(contributions_calendar):
 def find_max_daily_commits(contributions_calendar):
     """finds the highest number of commits in one day"""
     daily_counts = parse_contributions_calendar(contributions_calendar)
-    return max(daily_counts)
+    # return max(daily_counts)
+
+    # hardcoded for less commits
+    return 1
 
 
 def calculate_multiplier(max_commits):
@@ -294,7 +297,11 @@ def get_start_date():
         date = date + timedelta(1)
         weekday = datetime.weekday(date)
 
-    return date
+    # Dec 30th 2018
+    hard_coded_date = datetime.datetime(2018, 12, 30, 0, 5, 00, 0)
+
+    # return date
+    return hard_coded_date
 
 
 def generate_next_dates(start_date, offset=0):
