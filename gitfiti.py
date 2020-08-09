@@ -5,11 +5,10 @@
 #
 """
 gitfiti
-
 noun : Carefully crafted graffiti in a GitHub commit history calendar
 """
 
-import datetime
+from datetime import datetime, timedelta
 import itertools
 import json
 import math
@@ -289,7 +288,6 @@ def calculate_multiplier(max_commits):
 def get_start_date():
     """returns a datetime object for the first sunday after one year ago today
     at 12:00 noon"""
-    """
     today = datetime.today()
     date = datetime(today.year - 1, today.month, today.day, 12)
     weekday = datetime.weekday(date)
@@ -297,9 +295,9 @@ def get_start_date():
     while weekday < 6:
         date = date + timedelta(1)
         weekday = datetime.weekday(date)
-    """
+
     # Dec 30th 2018
-    hard_coded_date = datetime.datetime(2018, 12, 30, 0, 5, 00, 0)
+    hard_coded_date = datetime(2018, 12, 30, 0, 5, 00, 0)
 
     # return date
     return hard_coded_date
@@ -309,8 +307,8 @@ def generate_next_dates(start_date, offset=0):
     """generator that returns the next date, requires a datetime object as
     input. The offset is in weeks"""
     start = offset * 7
-    """for i in itertools.count(start):
-        yield start_date + timedelta(i)"""
+    for i in itertools.count(start):
+        yield start_date + timedelta(i)
 
 
 def generate_values_in_date_order(image, multiplier=1):
