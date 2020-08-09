@@ -205,6 +205,7 @@ IMAGES = {
   'oneup_str': ONEUP_STR,
   'beer': BEER,
   'gliders': GLIDERS,
+  'helloworld': HELLOWOLRD,
 }
 
 
