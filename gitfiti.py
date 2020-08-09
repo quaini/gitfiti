@@ -9,7 +9,7 @@ gitfiti
 noun : Carefully crafted graffiti in a GitHub commit history calendar
 """
 
-from datetime import datetime, timedelta
+import datetime
 import itertools
 import json
 import math
