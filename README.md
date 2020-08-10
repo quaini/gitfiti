@@ -2,7 +2,9 @@
 
 To create new drawings go to https://codepen.io/sebdeckers/pen/vOXeKV and copy the generated template into gitfiti.py and add entry to images.
 
-Start date is currently hard coded to Dec 30, 2018 and number of contributions to 2.
+Start date is currently hard coded to Jan 6, 2019 and number of contributions to 2.
+
+Note that the waiting period to see changes in contribution graph is about 30 seconds (not 2 days).
 
 [![Build Status](https://travis-ci.org/gelstudios/gitfiti.svg?branch=master)](https://travis-ci.org/gelstudios/gitfiti)
 
