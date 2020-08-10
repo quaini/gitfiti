@@ -1,3 +1,9 @@
+### Personal Notes:
+
+To create new drawings go to https://codepen.io/sebdeckers/pen/vOXeKV and copy the generated template into gitfiti.py and add entry to images.
+
+Start date is currently hard coded to Dec 30, 2018 and number of contributions to 2.
+
 [![Build Status](https://travis-ci.org/gelstudios/gitfiti.svg?branch=master)](https://travis-ci.org/gelstudios/gitfiti)
 
 gitfiti _noun_ : Carefully crafted graffiti in a github commit history calendar.  
