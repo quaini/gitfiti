@@ -5,6 +5,7 @@ To create new drawings go to https://codepen.io/sebdeckers/pen/vOXeKV and copy t
 Start date is currently hard coded to Jan 6, 2019 and number of contributions to 2.
 
 Note that the waiting period to see changes in contribution graph is about 30 seconds (not 2 days).
+____________________________________________________________________________________________________________________________
 
 [![Build Status](https://travis-ci.org/gelstudios/gitfiti.svg?branch=master)](https://travis-ci.org/gelstudios/gitfiti)
 
